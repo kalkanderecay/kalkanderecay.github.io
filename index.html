@@ -1,1 +1,437 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Page title -->
+	<title>Kalkandere Çay</title>
+	<!-- Page description -->
+	<meta name="description" content="A professional HTML landing page for your mobile application. Developed by Vlad Sargu at VSArt.">
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- End of Meta -->
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/img/common/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/img/common/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/common/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/common/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/common/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/img/common/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/img/common/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/img/common/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/common/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="assets/img/common/favicon/manifest.json">
+	<link rel="shortcut icon" href="assets/img/common/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="assets/img/common/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="assets/img/common/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<!-- End of Favicon -->
+	<!-- StyleSheets -->
+	<link rel="stylesheet" href="dist/style.css">
+	<!-- End of StyleSheets -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+
+<body class="js-preload-me ">
+	<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+	<!-- Preloader -->
+	<div class="preloader js-preloader ">
+		<span class="preloader__circle preloader__circle--primary"></span>
+		<span class="preloader__circle preloader__circle--secondary"></span>
+		<span class="preloader__circle preloader__circle--tertiary"></span>
+	</div>
+	<!-- End of Preloader -->
+	<!-- Page -->
+	<div class="page js-page ">
+		<!-- Mobile Menu -->
+		<div id="sidr">
+			<div class="mobile-menu__close js-mobile-menu__close"></div>
+			<ul class="mobile-menu js-mobile-menu ">
+				<li class="mobile-menu__item ">
+					<a href="index.html" class="mobile-menu__link">Home</a>
+					<ul class="mobile-menu__child">
+						<li class="mobile-menu__item ">
+							<a href="index-2.html" class="mobile-menu__link">Home secondary</a>
+						</li>
+						<li class="mobile-menu__item ">
+							<a href="index-3.html" class="mobile-menu__link">Home tertiary</a>
+						</li>
+					</ul>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#features" class="mobile-menu__link js-scroll-to">Features</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#" class="mobile-menu__link">Demo</a>
+					<ul class="mobile-menu__child">
+						<li class="mobile-menu__item ">
+							<a href="#video" class="mobile-menu__link js-scroll-to">Video</a>
+						</li>
+						<li class="mobile-menu__item ">
+							<a href="#screenshots" class="mobile-menu__link js-scroll-to">Screenshots</a>
+						</li>
+					</ul>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#team" class="mobile-menu__link js-scroll-to">Team</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#gallery" class="mobile-menu__link js-scroll-to">Gallery</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#plans" class="mobile-menu__link js-scroll-to">Plans</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#contacts" class="mobile-menu__link js-scroll-to">Contacts</a>
+				</li>
+				<li class="mobile-menu__item mobile-menu__item--button">
+					<a href="#download" class="mobile-menu__link js-scroll-to">Download</a>
+				</li>
+			</ul>
+		</div>
+		<!-- End of Mobile Menu -->
+		<!-- Header -->
+		<header class="header js-header ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<!-- Logo -->
+						<div class="logo ">
+							<a href="index.html" class="logo__link">
+								<img src="assets/img/common/logo/logo.png" alt="Logo" class="logo__image js-logo__image" data-switch="true"> </a>
+						</div>
+						<!-- End of Logo -->
+					</div>
+					<div class="col-md-20 col-sm-20 col-xs-12">
+						<!-- Menu -->
+						<nav>
+							<ul class="menu menu--right js-menu sf-menu ">
+								<li class="menu__item ">
+									<a href="index.html" class="menu__link">Anasayfa</a>
+								</li>
+								<li class="menu__item ">
+									<a href="#features" class="menu__link js-scroll-to">Hakkımızda</a>
+								</li>
+								<li class="menu__item ">
+									<a href="#team" class="menu__link js-scroll-to">Ürünler</a>
+								</li>
+								<li class="menu__item ">
+									<a href="#gallery" class="menu__link js-scroll-to">Galeri</a>
+								</li>
+								<li class="menu__item menu__item--button">
+									<a href="#contacts" class="menu__link js-scroll-to">Iletişim</a>
+								</li>
+							</ul>
+						</nav>
+						<!-- End of Menu -->
+						<!-- Menu Trigger -->
+						<a class="menu-trigger js-menu-trigger " href='sidr'> </a>
+						<!-- End of Menu Trigger -->
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End of Header -->
+		<!-- Hero -->
+		<div class="hero--skin-1 ">
+			<!-- Slider -->
+
+			<!-- End of Slider -->
+		</div>
+		<!-- End of Hero -->
+		<!-- Section -->
+		<section class="section section--skin-1 " id='features'>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<!-- Push -->
+						<div class="push push--60  "> </div>
+						<!-- End of Push -->
+						<!-- Section Title -->
+						<h2 class="section-title ">Hakkımızda</h2>
+						<ul class="list list--check  ">
+							<p>Fabrikamız Rize' nin Kalkandere ilçesinde 2005 yıllında kurulmuştur. Kuruluşundan itibaren teknolojiyi çok yakından takip eden fabrikamız günümüzde 11.000 m2 kapalı alanda, günde 150 ton yaş çay işleme, yılda 2.000 ton kuru çay üretimi, ayrıca 6.000 ton çay paketleme kapasitesine ulaşmıştır. Şu an Kalkandere Çay markası altında, üretimde sürekli çalışan 40, mevsimlik çalışan 55, pazarlamada çalışan 50 personeli ile toplamda 145 çalışan istihdam edilmektedir.</p>
+						</ul>
+						<!-- End of List -->
+						<!-- List -->
+						<!-- End of List -->
+					</div>
+					<div class="col-lg-12 col-md-11 col-md-offset-1 col-lg-offset-0">
+						<!-- Screens Preview -->
+						<div class="screens-preview screens-preview--right  ">
+							<img src="/assets/img/common/p/alt.jpeg" class="screens-preview__primary" alt="Primary Screenshot">
+						<!-- End of Screens Preview -->
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- End of Section -->
+
+		<!-- Section -->
+		<section class="section section--skin-2 " id='screenshots'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-24">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center "> Kalkandere Çay
+							<span class='section-title__highlight'>Ürünleri</span>
+						</h2>
+						<!-- End of Section Title -->
+						<!-- Tabs -->
+						<div class="tabs js-tabs ">
+							<ul class="tabs__header">
+								<li class="tabs__title">
+									<a class="tabs__link" href="#firstTab">Altın Harman </a>
+									</li>
+								<li class="tabs__title">
+									<a class="tabs__link" href="#secondTab">Misafir </a>
+								</li>
+							</ul>
+							<div id="firstTab" class="tabs__content">
+								<div class="tabs__izometric">
+									<img src="/assets/img/common/p/2.jpeg" class="tabs__screenshot">
+								</div>
+								<h2 class="section-title__highlight" style="padding-left:50px">Altın Harman</h2>
+							</div>
+							<div id="secondTab" class="tabs__content">
+								<div class="tabs__izometric">
+									<img src="/assets/img/common/p/1.jpeg" class="tabs__screenshot" alt="Screen preview">
+								</div>
+								<h2 class="section-title__highlight" style="padding-left:50px">Misafir</h2>
+							</div>
+						</div>
+						<!-- End of Tabs -->
+						<!-- Push -->
+						<div class="push push--150  "> </div>
+						<!-- End of Push -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-24">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center "> Şimdiye kadar
+							<span class='section-title__highlight'>Misafir ve Harman çay</span> dünya'nın her yerine dağıttık</h2>
+						<!-- End of Section Title -->
+					</div>
+					<div class="col-md-6 col-md-offset-1 col-sm-8">
+						<!-- Stats -->
+						<div class="stats stats--short  ">
+							<h3 class="stats__number js-stats__number" data-units="bin" data-number="1700">0</h3>
+							<p class="stats__description">Ton Harman Çay</p>
+						</div>
+						<!-- End of Stats -->
+					</div>
+					<div class="col-md-6 col-md-offset-1 col-sm-8">
+						<!-- Stats -->
+						<div class="stats  ">
+							<h3 class="stats__number js-stats__number" data-units="bin" data-number="1500">0</h3>
+							<p class="stats__description">Ton Misafir Çay</p>
+						</div>
+						<!-- End of Stats -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Section -->
+		<!-- Section -->
+		<section class="section section--grey section--large " id='testimonials'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-24">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center "> Mutlu
+							<span class='section-title__highlight'>Müşterilerimiz</span></h2>
+						<!-- End of Section Title -->
+
+						<!-- Testimonials -->
+						<div class="testimonials js-testimonials ">
+							<ul class="testimonials__header">
+								<li class="testimonials__title">
+									<a class="testimonials__link" href="#first-testimonial">
+										<img src="http://placehold.it/75x75" class="testimonials__photo" alt="Testimonial Photo">
+										<span class="testimonials__name">Vlad Sargu</span>
+										<span class="testimonials__position">CEO at
+											<span class='testimonials__highlight'>VSArt</span>
+										</span>
+									</a>
+								</li>
+								<li class="testimonials__title">
+									<a class="testimonials__link" href="#second-testimonial">
+										<img src="http://placehold.it/75x75" class="testimonials__photo" alt="Testimonial Photo">
+										<span class="testimonials__name">Christine May</span>
+										<span class="testimonials__position">marketer at
+											<span class='testimonials__highlight'>SpicyTeam</span>
+										</span>
+									</a>
+								</li>
+								<li class="testimonials__title">
+									<a class="testimonials__link" href="#third-testimonial">
+										<img src="http://placehold.it/75x75" class="testimonials__photo" alt="Testimonial Photo">
+										<span class="testimonials__name">Andy Way</span>
+										<span class="testimonials__position">designer at
+											<span class='testimonials__highlight'>DDB</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div class="testimonials__wrapper">
+								<i class="fontello-quote-right"></i>
+								<div class="testimonials__content">
+									<blockquote id="first-testimonial" class="testimonials__quote">
+										<span>A est vitae ut nemo et placeat ab veniam possimus iusto, doloribus, debitis fugit perspiciatis neque suscipit, dolorum earum soluta cumque iste.</span>
+									</blockquote>
+									<blockquote id="second-testimonial" class="testimonials__quote">
+										<span>Incidunt harum quos id, reiciendis nesciunt voluptatibus officia, sequi deleniti hic magni labore libero et eveniet reprehenderit, natus aspernatur! Veritatis, rem, quisquam!</span>
+									</blockquote>
+									<blockquote id="third-testimonial" class="testimonials__quote">
+										<span>Quos asperiores voluptate cumque alias voluptas fuga unde inventore architecto ad, vero repudiandae illum officia eaque, obcaecati accusantium minus iste placeat vitae.</span>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+						<!-- End of Testimonials -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Section -->
+				<!-- Section -->
+
+				<section class="section section--grey " id='video'>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-24">
+								<!-- Section Title -->
+								<h2 class="section-title section-title--center ">Video
+									<span class='section-title__highlight'>Kalkandere Çay Fabrikası</span>
+								</h2>
+								<!-- End of Section Title -->
+							</div>
+						</div>
+					</div>
+					<!-- Video -->
+					<div class="video  ">
+						<a href="https://youtu.be/jftpCo_9yzY" class="video__holder js-video">
+							<img src="/assets/img/common/p/2.jpg" class="video__primary" alt="Primary Video Thumbnail">
+							<span class="video__button"></span>
+						</a>
+					</div>
+					<!-- End of Video -->
+				</section>
+				<!-- End of Section -->
+		<!-- Section -->
+		<section class="section section--large " id='gallery'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-24">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center ">
+							<span class='section-title__highlight'>Fotoğraf Galerisi</span>
+						</h2>
+						<!-- End of Section Title -->
+					</div>
+				</div>
+			</div>
+			<!-- Carousel -->
+			<div class="carousel  ">
+				<div class="carousel__outer">
+					<div class="carousel__inner js-carousel owl-carousel">
+						<div class="carousel__slide">
+							<img src="/assets/img/common/g/1.jpg" class="carousel__image" alt="Carousel Slide Image">
+						</div>
+						<div class="carousel__slide">
+							<img src="/assets/img/common/g/2.jpg" class="carousel__image" alt="Carousel Slide Image">
+						</div>
+						<div class="carousel__slide">
+							<img src="/assets/img/common/g/3.jpg" class="carousel__image" alt="Carousel Slide Image">
+						</div>
+						<div class="carousel__slide">
+							<img src="/assets/img/common/g/4.jpg" class="carousel__image" alt="Carousel Slide Image">
+						</div>
+						<div class="carousel__slide">
+							<img src="/assets/img/common/g/5.jpg" class="carousel__image" alt="Carousel Slide Image">
+						</div>
+						<div class="carousel__slide">
+							<img src="/assets/img/common/g/6.jpg" class="carousel__image" alt="Carousel Slide Image">
+						</div>
+						<div class="carousel__slide">
+							<img src="/assets/img/common/g/7.jpg" class="carousel__image" alt="Carousel Slide Image">
+						</div>
+						<div class="carousel__slide">
+							<img src="/assets/img/common/g/8.jpg" class="carousel__image" alt="Carousel Slide Image">
+						</div>
+						<div class="carousel__slide">
+							<img src="/assets/img/common/g/9.jpg" class="carousel__image" alt="Carousel Slide Image">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of Carousel -->
+		</section>
+		<!-- End of Section -->
+		<!-- Section -->
+
+		<!-- End of Section -->
+		<!-- Section -->
+		<section class="section section--large section--no-pb " id='contacts'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-24">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center "> Bizimle
+							<span class='section-title__highlight'>Iletişime geç</span>
+						</h2>
+						<!-- End of Section Title -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-20 col-lg-offset-2 col-md-24 col-md-offset-0">
+						<!-- Contact Form -->
+						<div class="contact-form  contact-form__form js-contact-form">
+					
+										<h2>
+											<strong>Adres</strong> Cevizli Mah. No: 50 Kalkandere/Rize<br> <br>     
+											<strong>Telefon ( Fabrika ) </strong> : 0 (464) 311 29 <br> <br> 
+											<strong>Telefon ( GSM ) </strong> : 0 (543) 791 71 09
+										</h2>
+						</div>
+						<!-- End of Contact Form -->
+					</div>
+				</div>
+			</div>
+			<!-- Map -->
+			<div class="map  " id="map" data-lon="40.915223" data-lat="40.454127"> </div>
+			<!-- End of Map -->
+		</section>
+		<!-- End of Section -->
+		
+	</div>
+	<!-- End of Page -->
+	<!-- Scripts -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="dist/script.js"></script>
+	<!-- End of Scripts -->
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<!-- 
+<script>
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+e.src='//www.google-analytics.com/analytics.js';
+r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+-->
+	<!-- End of Analytics -->
+</body>
+
+</html>
